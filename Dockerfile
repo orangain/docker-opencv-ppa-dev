@@ -13,3 +13,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y dpkg-dev python3 python3-n
 RUN DEBIAN_FRONTEND=noninteractive apt-get build-dep -y opencv
 
 RUN apt-get install -y libgdal-dev libvtk6-dev doxygen
+RUN apt-get install -y dput
